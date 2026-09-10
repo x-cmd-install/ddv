@@ -12,6 +12,17 @@ Terminal DynamoDB Viewer ⚡️
 x install ddv
 ```
 
+## Code insight
+
+Total: **5,789** lines of code across **33** files in the top 5 languages.
+
+| Language | Code | Comments | Blanks | Files |
+|----------|-----:|---------:|-------:|------:|
+| Rust | 5,710 | 21 | 600 | 28 |
+| Toml | 72 | 0 | 4 | 2 |
+| Yaml | 7 | 0 | 0 | 1 |
+| Markdown | 0 | 98 | 64 | 2 |
+
 ## Source
 
 - **Upstream**: <https://github.com/Lusingander/ddv>
@@ -23,18 +34,6 @@ x install ddv
 - **Latest**: `v0.3.1` (2026-01-29)
 - **Last commit**: 2026-04-29
 - **Assets in release**: 7
-
-## Release assets
-
-| Asset | Size | Target |
-|-------|-----:|--------|
-| [checksum.txt](https://github.com/Lusingander/ddv/releases/download/v0.3.1/checksum.txt) | 697 B | `other` |
-| [ddv-0.3.1-aarch64-apple-darwin.tar.gz](https://github.com/Lusingander/ddv/releases/download/v0.3.1/ddv-0.3.1-aarch64-apple-darwin.tar.gz) | 5.4 MiB | `native/darwin/arm64` |
-| [ddv-0.3.1-aarch64-unknown-linux-gnu.tar.gz](https://github.com/Lusingander/ddv/releases/download/v0.3.1/ddv-0.3.1-aarch64-unknown-linux-gnu.tar.gz) | 5.6 MiB | `native/linux/arm64/glibc` |
-| [ddv-0.3.1-aarch64-unknown-linux-musl.tar.gz](https://github.com/Lusingander/ddv/releases/download/v0.3.1/ddv-0.3.1-aarch64-unknown-linux-musl.tar.gz) | 5.7 MiB | `native/linux/arm64/musl` |
-| [ddv-0.3.1-x86_64-apple-darwin.tar.gz](https://github.com/Lusingander/ddv/releases/download/v0.3.1/ddv-0.3.1-x86_64-apple-darwin.tar.gz) | 5.8 MiB | `native/darwin/x64` |
-| [ddv-0.3.1-x86_64-unknown-linux-gnu.tar.gz](https://github.com/Lusingander/ddv/releases/download/v0.3.1/ddv-0.3.1-x86_64-unknown-linux-gnu.tar.gz) | 6.0 MiB | `native/linux/x64/glibc` |
-| [ddv-0.3.1-x86_64-unknown-linux-musl.tar.gz](https://github.com/Lusingander/ddv/releases/download/v0.3.1/ddv-0.3.1-x86_64-unknown-linux-musl.tar.gz) | 6.1 MiB | `native/linux/x64/musl` |
 
 ## Popularity
 
@@ -49,19 +48,23 @@ x install ddv
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
 | 30d | 2026-08-11 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-07-12 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 90d | 2026-06-12 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-03-14 | 0 | 1 | 0 | 0 | 0 | 6 |
 | 360d | 2025-09-15 | 3 | 17 | 1 | 3 | 1 | 91 |
+| last720d | 2024-09-20 | 4 | 21 | 1 | 4 | 2 | 124 |
 
-## Code size
+## Release assets
 
-Total: **5,789** lines of code across **33** files in the top 5 languages.
-
-| Language | Code | Comments | Blanks | Files |
-|----------|-----:|---------:|-------:|------:|
-| Rust | 5,710 | 21 | 600 | 28 |
-| Toml | 72 | 0 | 4 | 2 |
-| Yaml | 7 | 0 | 0 | 1 |
-| Markdown | 0 | 98 | 64 | 2 |
+| Asset | Size | Target |
+|-------|-----:|--------|
+| [checksum.txt](https://github.com/Lusingander/ddv/releases/download/v0.3.1/checksum.txt) | 697 B | `other` |
+| [ddv-0.3.1-aarch64-apple-darwin.tar.gz](https://github.com/Lusingander/ddv/releases/download/v0.3.1/ddv-0.3.1-aarch64-apple-darwin.tar.gz) | 5.4 MiB | `native/darwin/arm64` |
+| [ddv-0.3.1-aarch64-unknown-linux-gnu.tar.gz](https://github.com/Lusingander/ddv/releases/download/v0.3.1/ddv-0.3.1-aarch64-unknown-linux-gnu.tar.gz) | 5.6 MiB | `native/linux/arm64/glibc` |
+| [ddv-0.3.1-aarch64-unknown-linux-musl.tar.gz](https://github.com/Lusingander/ddv/releases/download/v0.3.1/ddv-0.3.1-aarch64-unknown-linux-musl.tar.gz) | 5.7 MiB | `native/linux/arm64/musl` |
+| [ddv-0.3.1-x86_64-apple-darwin.tar.gz](https://github.com/Lusingander/ddv/releases/download/v0.3.1/ddv-0.3.1-x86_64-apple-darwin.tar.gz) | 5.8 MiB | `native/darwin/x64` |
+| [ddv-0.3.1-x86_64-unknown-linux-gnu.tar.gz](https://github.com/Lusingander/ddv/releases/download/v0.3.1/ddv-0.3.1-x86_64-unknown-linux-gnu.tar.gz) | 6.0 MiB | `native/linux/x64/glibc` |
+| [ddv-0.3.1-x86_64-unknown-linux-musl.tar.gz](https://github.com/Lusingander/ddv/releases/download/v0.3.1/ddv-0.3.1-x86_64-unknown-linux-musl.tar.gz) | 6.1 MiB | `native/linux/x64/musl` |
 
 ## Improve this data
 
@@ -72,4 +75,4 @@ Install metadata for ddv lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T15:49:11Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T20:29:23Z._

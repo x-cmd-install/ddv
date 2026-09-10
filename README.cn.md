@@ -12,6 +12,17 @@ Terminal DynamoDB Viewer ⚡️
 x install ddv
 ```
 
+## 代码规模
+
+合计: **5,789** 行代码（覆盖前 5 种语言、共 **33** 个文件）。
+
+| 语言 | 代码 | 注释 | 空行 | 文件数 |
+|------|-----:|-----:|-----:|------:|
+| Rust | 5,710 | 21 | 600 | 28 |
+| Toml | 72 | 0 | 4 | 2 |
+| Yaml | 7 | 0 | 0 | 1 |
+| Markdown | 0 | 98 | 64 | 2 |
+
 ## 源代码
 
 - **上游仓库**: <https://github.com/Lusingander/ddv>
@@ -23,18 +34,6 @@ x install ddv
 - **最新版本**: `v0.3.1` (2026-01-29)
 - **最近提交**: 2026-04-29
 - **Release 含资产**: 7 个
-
-## Release 资产
-
-| 资产 | 大小 | 目标平台 |
-|------|-----:|----------|
-| [checksum.txt](https://github.com/Lusingander/ddv/releases/download/v0.3.1/checksum.txt) | 697 B | `other` |
-| [ddv-0.3.1-aarch64-apple-darwin.tar.gz](https://github.com/Lusingander/ddv/releases/download/v0.3.1/ddv-0.3.1-aarch64-apple-darwin.tar.gz) | 5.4 MiB | `native/darwin/arm64` |
-| [ddv-0.3.1-aarch64-unknown-linux-gnu.tar.gz](https://github.com/Lusingander/ddv/releases/download/v0.3.1/ddv-0.3.1-aarch64-unknown-linux-gnu.tar.gz) | 5.6 MiB | `native/linux/arm64/glibc` |
-| [ddv-0.3.1-aarch64-unknown-linux-musl.tar.gz](https://github.com/Lusingander/ddv/releases/download/v0.3.1/ddv-0.3.1-aarch64-unknown-linux-musl.tar.gz) | 5.7 MiB | `native/linux/arm64/musl` |
-| [ddv-0.3.1-x86_64-apple-darwin.tar.gz](https://github.com/Lusingander/ddv/releases/download/v0.3.1/ddv-0.3.1-x86_64-apple-darwin.tar.gz) | 5.8 MiB | `native/darwin/x64` |
-| [ddv-0.3.1-x86_64-unknown-linux-gnu.tar.gz](https://github.com/Lusingander/ddv/releases/download/v0.3.1/ddv-0.3.1-x86_64-unknown-linux-gnu.tar.gz) | 6.0 MiB | `native/linux/x64/glibc` |
-| [ddv-0.3.1-x86_64-unknown-linux-musl.tar.gz](https://github.com/Lusingander/ddv/releases/download/v0.3.1/ddv-0.3.1-x86_64-unknown-linux-musl.tar.gz) | 6.1 MiB | `native/linux/x64/musl` |
 
 ## 流行度
 
@@ -49,19 +48,23 @@ x install ddv
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
 | 30d | 2026-08-11 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-07-12 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 90d | 2026-06-12 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-03-14 | 0 | 1 | 0 | 0 | 0 | 6 |
 | 360d | 2025-09-15 | 3 | 17 | 1 | 3 | 1 | 91 |
+| last720d | 2024-09-20 | 4 | 21 | 1 | 4 | 2 | 124 |
 
-## 代码规模
+## Release 资产
 
-合计: **5,789** 行代码（覆盖前 5 种语言、共 **33** 个文件）。
-
-| 语言 | 代码 | 注释 | 空行 | 文件数 |
-|------|-----:|-----:|-----:|------:|
-| Rust | 5,710 | 21 | 600 | 28 |
-| Toml | 72 | 0 | 4 | 2 |
-| Yaml | 7 | 0 | 0 | 1 |
-| Markdown | 0 | 98 | 64 | 2 |
+| 资产 | 大小 | 目标平台 |
+|------|-----:|----------|
+| [checksum.txt](https://github.com/Lusingander/ddv/releases/download/v0.3.1/checksum.txt) | 697 B | `other` |
+| [ddv-0.3.1-aarch64-apple-darwin.tar.gz](https://github.com/Lusingander/ddv/releases/download/v0.3.1/ddv-0.3.1-aarch64-apple-darwin.tar.gz) | 5.4 MiB | `native/darwin/arm64` |
+| [ddv-0.3.1-aarch64-unknown-linux-gnu.tar.gz](https://github.com/Lusingander/ddv/releases/download/v0.3.1/ddv-0.3.1-aarch64-unknown-linux-gnu.tar.gz) | 5.6 MiB | `native/linux/arm64/glibc` |
+| [ddv-0.3.1-aarch64-unknown-linux-musl.tar.gz](https://github.com/Lusingander/ddv/releases/download/v0.3.1/ddv-0.3.1-aarch64-unknown-linux-musl.tar.gz) | 5.7 MiB | `native/linux/arm64/musl` |
+| [ddv-0.3.1-x86_64-apple-darwin.tar.gz](https://github.com/Lusingander/ddv/releases/download/v0.3.1/ddv-0.3.1-x86_64-apple-darwin.tar.gz) | 5.8 MiB | `native/darwin/x64` |
+| [ddv-0.3.1-x86_64-unknown-linux-gnu.tar.gz](https://github.com/Lusingander/ddv/releases/download/v0.3.1/ddv-0.3.1-x86_64-unknown-linux-gnu.tar.gz) | 6.0 MiB | `native/linux/x64/glibc` |
+| [ddv-0.3.1-x86_64-unknown-linux-musl.tar.gz](https://github.com/Lusingander/ddv/releases/download/v0.3.1/ddv-0.3.1-x86_64-unknown-linux-musl.tar.gz) | 6.1 MiB | `native/linux/x64/musl` |
 
 ## 改进这些数据
 
@@ -72,4 +75,4 @@ ddv 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索�
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260910.yml` · 2026-09-10T15:49:11Z._
+_数据快照: `data/card/260910.yml` · 2026-09-10T20:29:24Z._

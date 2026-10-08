@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 5891699,
       "digest": "sha256:ad0083a799ca653516b38429f779b2de5e8a3e4db27ef1dbb9c6d2fe9b063ee4",
-      "download_count": 11,
+      "download_count": 13,
       "created_at": "2026-01-29T03:23:29Z",
       "updated_at": "2026-01-29T03:23:30Z",
       "browser_download_url": "https://github.com/lusingander/ddv/releases/download/v0.3.1/ddv-0.3.1-aarch64-unknown-linux-gnu.tar.gz"
@@ -247,7 +247,7 @@
       "state": "uploaded",
       "size": 6309268,
       "digest": "sha256:26032a754d0cd6b90aee4990d8915b6136c720cb40aa3426408ad54c0ed4a56e",
-      "download_count": 22,
+      "download_count": 24,
       "created_at": "2026-01-29T03:23:29Z",
       "updated_at": "2026-01-29T03:23:30Z",
       "browser_download_url": "https://github.com/lusingander/ddv/releases/download/v0.3.1/ddv-0.3.1-x86_64-unknown-linux-gnu.tar.gz"
@@ -283,7 +283,7 @@
       "state": "uploaded",
       "size": 6401828,
       "digest": "sha256:9f89d5d37c4223a5337eee493030b43113021694381c003f626a8b6ae7ed384e",
-      "download_count": 186,
+      "download_count": 187,
       "created_at": "2026-01-29T03:23:29Z",
       "updated_at": "2026-01-29T03:23:30Z",
       "browser_download_url": "https://github.com/lusingander/ddv/releases/download/v0.3.1/ddv-0.3.1-x86_64-unknown-linux-musl.tar.gz"
